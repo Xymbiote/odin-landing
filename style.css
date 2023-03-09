@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+}
+
+img {
+    border-radius: 2%;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 24px;
+}
+
+.signup.box, .button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.hero.title {
+    font-size: 48px;
+    color: #E5E7EB;
+    font-weight: 800;
+}
+
+.hero.text, .header.link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.info.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937
+}
+
+.quote.text {
+    width: 700px;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.footer {
+    color: #E5E7EB;
+}
+
+.container.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.container.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.hero.box {
+    max-width: 550px;
+}
+
+.header.box {
+    display: flex;
+}
+
+.header.link {
+    margin: 0px 8px;
+}
+
+.container.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px 50px;
+}
+
+.info.box {
+    display: flex;
+}
+
+.info.title {
+    margin: 0px 0px 25px;
+}
+
+.info.box .info {
+    margin: 0px 20px;
+    width: 200px;
+}
+
+.container.quote, .container.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.quote {
+    padding: 35px;
+}
+
+.container.footer {
+    padding: 10px;
+}
+
+.container.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.signup.box {
+    display: flex;
+    align-items: center;
+    padding: 25px 75px;
+    border-radius: 10px;
+}
+
+.signup.title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box.text {
+    margin: 0px 90px 0px 0px;
+}
+
+.button {
+    padding: 4px 20px;
+    margin: 12px 0px;
+    border-radius: 8px;
+    border-color: white;
+    font-weight: 800;
+}
+
